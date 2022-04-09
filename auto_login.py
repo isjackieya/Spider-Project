@@ -26,9 +26,9 @@ class login():
         return flag
 
     def login(self, username, passwd, operater_id, user_ip):
-        url = "http://10.255.255.34/api/v1/login"
+        url = "http://a.nuist.edu.cn/api/v1/login"
         headers = {
-            "Referer": "http://10.255.255.34/authentication/login",
+            "Referer": "http://a.nuist.edu.cn/authentication/login",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
                           "Chrome/100.0.4896.75 Safari/537.36",
         }
