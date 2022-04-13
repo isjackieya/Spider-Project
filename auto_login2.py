@@ -11,7 +11,7 @@ def chromedriver():
     需要将chromedriver.exe放在当前文件所在的目录下
     """
     options = webdriver.ChromeOptions()
-    # options.add_argument("--headless")
+    options.add_argument("--headless")
     browser = webdriver.Chrome('./' + os.sep + 'chromedriver.exe', options=options)
     return browser
 
